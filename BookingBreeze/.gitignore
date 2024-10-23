@@ -1,0 +1,2 @@
+#ignore database config file
+src/main/java/Controller/DBConnect.java

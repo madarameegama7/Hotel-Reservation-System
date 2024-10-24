@@ -1,12 +1,10 @@
-package dao;
+package com.bs.dao;
 
 import java.sql.Connection;
 
-//import com.mysql.jdbc.PreparedStatement;
-
-import interfaces.IUserDAO;
-import model.User;
-import utility.DBConnect;
+import com.bs.interfaces.IUserDAO;
+import com.bs.model.User;
+import com.bs.utility.DBConnect;
 
 public class UserDAO implements IUserDAO {
 

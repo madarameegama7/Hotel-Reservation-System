@@ -1,8 +1,8 @@
-package controller;
+package com.bs.servlet;
 
-import dao.UserDAO;
-import interfaces.IUserDAO;
-import model.User;
+import com.bs.dao.UserDAO;
+import com.bs.interfaces.IUserDAO;
+import com.bs.model.User;
 
 public class UserController {
 

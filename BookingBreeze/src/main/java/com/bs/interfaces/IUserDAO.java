@@ -1,6 +1,6 @@
-package interfaces;
+package com.bs.interfaces;
 
-import model.User;
+import com.bs.model.User;
 
 public interface IUserDAO {
 

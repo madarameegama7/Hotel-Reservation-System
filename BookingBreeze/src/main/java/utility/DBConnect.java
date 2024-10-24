@@ -1,4 +1,4 @@
-package Controller;
+package utility;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,7 +15,7 @@ public class DBConnect {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			con = DriverManager.getConnection(url, userName, password);
+			con = (Connection)DriverManager.getConnection(url, userName, password);
 		}catch(Exception e) {
 			System.out.println("Database connectivity is failed");
 		}
